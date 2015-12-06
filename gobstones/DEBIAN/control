@@ -1,0 +1,8 @@
+Package: gobstones
+Version: 1.5.3
+Architecture: all
+Maintainer: Nazareno Castro<nazarenomartincastro@gmail.com>
+Installed-Size: 4000
+Depends: python-appindicator, python-qt4
+Priority: optional
+Description: IDE para el lenguaje de programacion Gobstones

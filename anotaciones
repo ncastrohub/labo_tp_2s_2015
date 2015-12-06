@@ -1,0 +1,36 @@
+Primero intentamos usando programas que te crean un root del sistema para
+el que se quiere hacer el paquete.
+
+despues intentamos usar un debianizador, un paquete que crea el .deb
+Para eso seguimos las reglas de los paquetes .deb con 
+control, rules, copiright, changelog, install.
+
+
+Por ultimo decidimos hacerlo de una manera mas simple, 
+falta verificar si se puede publicar en un repositorio o
+solo es para crear un .deb que este fuera del "circuito" 
+de los paquetes que se pueden descargar de repositorio.
+
+Para buildear la aplicacion y que funcione
+sin decir
+el paquete es de mala calidad.
+
+Paso a paso como se crea un paquete .deb
+
+primero hay que entender cual es la estructura de carpetas que tienen
+los programas para la distribucion de debian que queremos hacer el instalador.
+
+Una vez entendido esto.
+Hay que tener encuenta algunas cosas.
+Si el programa es necesario que se compile para ser ejecutado o si solamente
+es necesario ejecutarlo con algun programa especifico.
+
+que programas (dependencias) necesita nuetro programa para funcionar.
+
+
+
+
+debian-builder herramienta para poder crear paquetes.
+
+fakeroot dpkg-deb --build pygobstones
+

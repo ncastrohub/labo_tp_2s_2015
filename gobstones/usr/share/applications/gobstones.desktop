@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Gobstones
+GenericName=Text Editor
+Comment=IDE para el lenguaje de Programación Gobstones
+Exec=/usr/bin/gobstones %F
+Terminal=false
+MimeType=text/plain;
+Icon=gobstones
+Categories=Development;
+StartupNotify=true
+Actions=Window;Document;
+
+[Desktop Action Window]
+Name=New Window
+Exec=/usr/bin/gobstones -n
+OnlyShowIn=Unity;
