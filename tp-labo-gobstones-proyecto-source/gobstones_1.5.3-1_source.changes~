@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 07 Dec 2015 18:39:37 -0300
+Source: gobstones
+Binary: gobstones
+Architecture: source
+Version: 1.5.3-1
+Distribution: unstable
+Urgency: low
+Maintainer: Nazareno Castro<nazarenomartincastro@gmail.com>
+Changed-By: Jejo <jejo@unknown>
+Description:
+ gobstones  - IDE para el lenguaje de programacion Gobstones
+Changes:
+ gobstones (1.5.3-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ d496e3661a91504df95e4eac2d3375a6bef7820a 856 gobstones_1.5.3-1.dsc
+ 5ce4fad801b50965745df86cf03ce3d10f2eab97 1617040 gobstones_1.5.3.orig.tar.xz
+ 705a3cc632eda0633b015a887a6a7aff3c0060d3 9144 gobstones_1.5.3-1.debian.tar.xz
+Checksums-Sha256:
+ 24fb99d8453c4488b09fa57389d088f5474140e4ec1b3b65824a76ad39f4193d 856 gobstones_1.5.3-1.dsc
+ b6adbe6193af808d4ad870feb68e03edc0edc10c9b8a41032892aacd9c6bcf0c 1617040 gobstones_1.5.3.orig.tar.xz
+ 2a8cc1bfcb449052dd6118773c9ea7ed9f2b8b11716235c47983e93a8f7c643e 9144 gobstones_1.5.3-1.debian.tar.xz
+Files:
+ 2176572949f71548c8c942af7a5e5682 856 unknown optional gobstones_1.5.3-1.dsc
+ 8f1379a5c76b5ca9d37f8859d7f56db6 1617040 unknown optional gobstones_1.5.3.orig.tar.xz
+ 08ff55434bcc4e7cfd8f832f26d0194c 9144 unknown optional gobstones_1.5.3-1.debian.tar.xz
