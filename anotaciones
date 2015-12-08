@@ -27,10 +27,20 @@ es necesario ejecutarlo con algun programa especifico.
 
 que programas (dependencias) necesita nuetro programa para funcionar.
 
+Comando apra crear el .deb
+fakeroot dpkg-deb --build gobstones
+
+Instalar dpkg
+	dpkg-deb -- Debian package archive (.deb) manipulation tool
+instalar fakeroot -- ejecuta  una  orden  en  un  entorno  que  falsea privilegios de
+       superusuario para la manipulación de ficheros
 
 
+Comando para saber las dependencias de un .deb (dpkg -I package.deb)
 
-debian-builder herramienta para poder crear paquetes.
+Url para subir screenshots de un .deb
+(http://screenshots.ubuntu.com/upload)
 
-fakeroot dpkg-deb --build pygobstones
-
+Url donde se explica paso a paso como crear un packete .deb
+en español para que sea mas facil.
+(https://wiki.debian.org/es/IntroDebianPackaging)
