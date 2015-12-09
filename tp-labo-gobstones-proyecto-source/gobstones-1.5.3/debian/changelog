@@ -1,0 +1,5 @@
+gobstones (1.5.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- CPI UNQ <unq.cpi.debian@gmail.com>  Mon, 07 Dec 2015 18:39:37 -0300

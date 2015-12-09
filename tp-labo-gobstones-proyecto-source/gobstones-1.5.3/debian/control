@@ -1,0 +1,12 @@
+Source: gobstones
+Section: unknown
+Priority: optional
+Maintainer: CPI UNQ<unq.cpi.debian@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: <insert the upstream URL, if relevant>
+
+Package: gobstones
+Architecture: all
+Depends: python-appindicator, python-qt4
+Description: IDE para el lenguaje de programacion Gobstones

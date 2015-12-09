@@ -1,0 +1,86 @@
+http://blog.desdelinux.net/como-subir-paquetes-a-tu-ppa/
+http://packaging.ubuntu.com/html/
+
+---------------
+
+la carpeta que contiene los carpetas 'usr', 'opt' y 'gobstones' debe poseer el nombre <package>-<version>
+
+----------------
+
+configurar bazaar
+
+'sudo apt-get install bzr'
+
+bzr whoami "Bob Dobbs <subgenius@example.com>"
+bzr launchpad-login subgenius (<launchpad id>)
+
+para saber el id correcto para loguear hay que ir launchpad.net/~, y lo que sigue luego del '~' es el id
+
+-------------------------
+
+configurar shell
+
+vamos a la carpeta home y abrimos el archivo .bashrc
+y le añadimos al final del archivo lo siguiente
+export DEBFULLNAME="Bob Dobbs"
+export DEBEMAIL="subgenius@example.com"
+
+
+------------------------
+
+generar la plantilla del paquete
+
+
+instalamos 'sudo apt-get install dh-make'
+dentro de la carpeta <package>-<version> ejecutamos 'dh_make --createorig'
+
+nos preguntara el tipo de paquete 
+'Type of package: single binary, indep binary, multiple binary, library, kernel module, kernel patch? [s/i/m/l/k/n] '
+elegimos single binary (s)
+
+y nos mostrara la informacion del paquete
+
+Maintainer name  : CPI UNQ
+Email-Address    : unq.cpi.debian@gmail.com 
+Date             : Tue, 08 Dec 2015 19:21:32 -0300
+Package Name     : gobstones
+Version          : 1.5.3
+License          : blank
+Type of Package  : Single
+
+si esta todo correcto apretar enter
+
+--------------------------
+
+generar el source package
+
+dentro de la carpeta <package>-<version> ejecutamos 'dpkg-buildpackage -S -sa -k<key ID> -rfakeroot'
+Con este comando le indicamos la firma que tendra el paquete 
+una vez ingresado el comando nos pedira la frase que ingresamos al momento de crear la llave GPG
+
+
+--------------------
+
+error al firmar los ficheros .dsc .changes
+
+clave secreta no disponible, se debe generar una clave gpg
+
+https://fedoraproject.org/wiki/Creating_GPG_Keys/es
+
+gpg --keyserver keyserver.ubuntu.com --send-keys <key id>
+
+para generar clas ssh 'sudo apt-get install openssh-client'
+
+se instala la herramienta dput 'sudo apt-get install dput'
+
+Para leer un mail con encriptacion GPG, instalamos enigmail 'sudo apt-get install enigmail'
+ingresamos la cuenta con la que nos registramos en launchpad.net, confirmamos las credenciales
+vamos a inbox e ingresamos al mail de confirmacion de la llave OpenPGP, pedira la frase que ingresamos al momento de generar la llave GPG para desencriptar el mail
+una vez desencriptado vamos a la seccion del mail que dice 'Please go here to finish adding the key to your Launchpad account:' y seguimos la URL ubicada debajo
+esta nos llevara al sitio launchpad.net para confirmar la llave, apretamos continue y nos dira que la llave fue validada satisfactoriamente.
+
+subir llava ssh a launchpad
+
+vamos a la carpeta home y entramos en el directorio .ssh (oculto), abrimos el archivo id_rsa.pub el cual contiene nuestra llave
+copiamos su contenido y lo pegamos en el espacio de la pagina para subir la llave, luego apretamos import public key
+

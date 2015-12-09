@@ -1,0 +1,20 @@
+Format: 3.0 (quilt)
+Source: gobstones
+Binary: gobstones
+Architecture: all
+Version: 1.5.3-1
+Maintainer: Sergio Ivanic<ivanicsergio@gmail.com>
+Homepage: <insert the upstream URL, if relevant>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9)
+Package-List:
+ gobstones deb unknown optional arch=all
+Checksums-Sha1:
+ 5ce4fad801b50965745df86cf03ce3d10f2eab97 1617040 gobstones_1.5.3.orig.tar.xz
+ 705a3cc632eda0633b015a887a6a7aff3c0060d3 9144 gobstones_1.5.3-1.debian.tar.xz
+Checksums-Sha256:
+ b6adbe6193af808d4ad870feb68e03edc0edc10c9b8a41032892aacd9c6bcf0c 1617040 gobstones_1.5.3.orig.tar.xz
+ 2a8cc1bfcb449052dd6118773c9ea7ed9f2b8b11716235c47983e93a8f7c643e 9144 gobstones_1.5.3-1.debian.tar.xz
+Files:
+ 8f1379a5c76b5ca9d37f8859d7f56db6 1617040 gobstones_1.5.3.orig.tar.xz
+ 08ff55434bcc4e7cfd8f832f26d0194c 9144 gobstones_1.5.3-1.debian.tar.xz
