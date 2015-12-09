@@ -12,7 +12,7 @@ configurar bazaar
 'sudo apt-get install bzr'
 
 bzr whoami "Bob Dobbs <subgenius@example.com>"
-bzr launchpad-login subgenius (<launchpad id>)
+bzr launchpad-login subgenius <---esto seria esto--- (<launchpad id>)
 
 para saber el id correcto para loguear hay que ir launchpad.net/~, y lo que sigue luego del '~' es el id
 
@@ -58,8 +58,40 @@ dentro de la carpeta <package>-<version> ejecutamos 'dpkg-buildpackage -S -sa -k
 Con este comando le indicamos la firma que tendra el paquete 
 una vez ingresado el comando nos pedira la frase que ingresamos al momento de crear la llave GPG
 
-
 --------------------
+
+subir el source package al repo PPA
+
+dput ppa:your-lp-id/ppa <source.changes>
+
+-------------------
+
+error al subir el source package, rechazado por el server
+
+Rejected:
+Unable to find distroseries: unstable
+
+motivo: 
+
+The problem here is that your debian/changelog file specifies a distribution that is not present in Ubuntu. To solve this problem, edit your debian/changelog file, and change the distribution at the top line from "unstable" to something that fits Ubuntu (e.g. jaunty). Rebuild your package and try to upload again.
+
+solucion cambiar el encabezado del changelog:
+
+gobstones (1.5.3-0ubuntu1) trusty; urgency=low
+
+agregado 0ubuntu1 y trusty
+
+-------------------
+
+error al subir el source package, rechazado por el server
+
+gobstones_1.5.3-0ubuntu1.dsc: Unknown section 'unknown'
+gobstones_1.5.3.orig.tar.xz: Unknown section 'unknown'
+gobstones_1.5.3-0ubuntu1.debian.tar.xz: Unknown section 'unknown'
+
+motivo: El campo Section del control file es unknown y deberia ser algo concreto
+
+-------------------
 
 error al firmar los ficheros .dsc .changes
 

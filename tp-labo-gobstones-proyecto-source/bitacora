@@ -58,8 +58,41 @@ dentro de la carpeta <package>-<version> ejecutamos 'dpkg-buildpackage -S -sa -k
 Con este comando le indicamos la firma que tendra el paquete 
 una vez ingresado el comando nos pedira la frase que ingresamos al momento de crear la llave GPG
 
-
 --------------------
+
+subir el source package al repo PPA
+
+dput ppa:your-lp-id/ppa <source.changes>
+
+-------------------
+
+error al subir el source package, rechazado por el server
+
+Rejected:
+Unable to find distroseries: unstable
+
+motivo: 
+
+The problem here is that your debian/changelog file specifies a distribution that is not present in Ubuntu. To solve this problem, edit your debian/changelog file, and change the distribution at the top line from "unstable" to something that fits Ubuntu (e.g. jaunty). Rebuild your package and try to upload again.
+
+solucion cambiar el encabezado del changelog:
+
+gobstones (1.5.3-0ubuntu1) trusty; urgency=low
+
+agregado 0ubuntu1 y trusty
+
+-------------------
+
+error al subir el source package, rechazado por el server
+
+gobstones_1.5.3-0ubuntu1.dsc: Unknown section 'unknown'
+gobstones_1.5.3.orig.tar.xz: Unknown section 'unknown'
+gobstones_1.5.3-0ubuntu1.debian.tar.xz: Unknown section 'unknown'
+
+motivo: El campo Section del control file es unknown y deberia ser algo concreto
+solucion: reemplazar unknown por un campo valido (admin, cli-mono, comm, database, debug, devel, doc, editors, education, electronics, embedded, fonts, games, gnome, gnu-r, gnustep, graphics, hamradio, haskell, httpd, interpreters, introspection, java, kde, kernel, libdevel, libs, lisp, localization, mail, math, metapackages, misc, net, news, ocaml, oldlibs, otherosfs, perl, php, python, ruby, science, shells, sound, tasks, tex, text, utils, vcs, video, web, x11, xfce, zope)
+
+-------------------
 
 error al firmar los ficheros .dsc .changes
 

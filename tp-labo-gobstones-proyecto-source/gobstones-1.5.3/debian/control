@@ -1,5 +1,5 @@
 Source: gobstones
-Section: unknown
+Section: devel
 Priority: optional
 Maintainer: CPI UNQ<unq.cpi.debian@gmail.com>
 Build-Depends: debhelper (>= 9)

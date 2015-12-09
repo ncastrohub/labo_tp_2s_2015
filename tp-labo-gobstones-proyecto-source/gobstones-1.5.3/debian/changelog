@@ -1,5 +1,5 @@
-gobstones (1.5.3-1) unstable; urgency=low
+gobstones (1.5.3-0ubuntu1) wily; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release of Gobstones in PPA respository
 
  -- CPI UNQ <unq.cpi.debian@gmail.com>  Mon, 07 Dec 2015 18:39:37 -0300
