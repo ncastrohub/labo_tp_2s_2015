@@ -18,26 +18,26 @@ Changes:
  .
    * Initial release of Gobstones in PPA respository
 Checksums-Sha1:
- 7b52c5373ee30a2bdf7e3b62de96ee50b50f2577 1391 gobstones_1.5.3-0ubuntu1.dsc
- c87eec76a478353bfbf028d77f739d99e7ef1064 1616548 gobstones_1.5.3.orig.tar.xz
- afd370983a619bd9ea6037f8c8199f36eb981ddf 9224 gobstones_1.5.3-0ubuntu1.debian.tar.xz
+ c0ad95aa80372ad69b297591b43007b2c4300798 1378 gobstones_1.5.3-0ubuntu1.dsc
+ c7ab57a4fdd6e83b6c097eb9932c012a3feb3352 1616760 gobstones_1.5.3.orig.tar.xz
+ 82a3343f524cfb14a60fd628cd4359a31d5290c4 9224 gobstones_1.5.3-0ubuntu1.debian.tar.xz
 Checksums-Sha256:
- e2b1c76bfab207df16747a1a774928d40ff28b27b05db02157727cbffad1f057 1391 gobstones_1.5.3-0ubuntu1.dsc
- 32dece1d47352a91417b8e19bfecf5d88f8ac35cf1c664b0d4567547cc15131c 1616548 gobstones_1.5.3.orig.tar.xz
- 80773cebcd2f0650deaf0b457b45a422b6f59d2fe45157c4258e2ed664624f6e 9224 gobstones_1.5.3-0ubuntu1.debian.tar.xz
+ 3216bbc9cd0a4e3674280a2d8e9469b1fd921314826723e0c3c62d296a6364e1 1378 gobstones_1.5.3-0ubuntu1.dsc
+ 093a9decff8e860e7d65760941b40158a7349f2f3277f8dc5a67c4d671b9bd19 1616760 gobstones_1.5.3.orig.tar.xz
+ a2743f801a0796eb929a911da9a37a761097846fce3aa24339954325b398519f 9224 gobstones_1.5.3-0ubuntu1.debian.tar.xz
 Files:
- ade1bd892491e760869e3ff1e21fe736 1391 devel optional gobstones_1.5.3-0ubuntu1.dsc
- 60620be516195367ae47aa527574cd5c 1616548 devel optional gobstones_1.5.3.orig.tar.xz
- 8394bbc1f429b0c00f0e6e59963d2ebb 9224 devel optional gobstones_1.5.3-0ubuntu1.debian.tar.xz
+ bcbc3ff11f146935bfe78e170ae8fffe 1378 devel optional gobstones_1.5.3-0ubuntu1.dsc
+ c1f46c5e9a1818326caeae4a43380c76 1616760 devel optional gobstones_1.5.3.orig.tar.xz
+ 837e7f8ca31a084c7c3c210682ac11c9 9224 devel optional gobstones_1.5.3-0ubuntu1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQEcBAEBCAAGBQJWaN16AAoJEBs0LWKKT9ZYLgcH/1sGxeVqMutwdraEYuLgCnwR
-qht+sl9nMLEehAytEbq00gZ9KvF+sR8hJM/FiDxebTlm8Vr1QT5WOfBbDGkoEKKM
-D5tHZXUgE6oRmq6olJJ1jZdDPUB6GyARIGciONMd0qj1+1NCUFI6P6LKi+yLQ5ZD
-/Sh6kT3AmnGtSS50K79AXY/pjk+n4Zq00qfq1xVTz4X9zHBVK5w3hQnjuW6Z944w
-CUB/BFsUBJl3oIPuBoZPTy/8VGoyVo1VrFF3hBQs6wQqJQWYpeIQJhIl8ugbEUWs
-Cw1YayW4rly7c8e4Ezzq27VBUHm37eEQxtSPa5LB2IIVELi2nYYUYappeG2HQek=
-=BT9b
+iQEcBAEBCAAGBQJWaOIkAAoJEBs0LWKKT9ZY3PAH/0xvDvOjT1+cQsy9fth1EnAC
+hBBHwykB6wcbj4i0aYk7S5m9btLpMwpM07sOW8Wq1GYRfrIWwBDmQViqzs3CBlZm
+eOWekEC7Ht73u5OExB5G/zQ0vvaE7Iii2lY4JDU+1ESeIsQrxZQ9cJ5Z4NRrC9Fr
+ZiXyUd3OVYPXqQNfU03Ig3+SCaDnp1ATa/HhaDYLHeX0dyjGTpUlHpcVgqgzpJZ2
+wKV5DlbWzY+neL2E+upovu456G5Z1N0QMy9+JJ5PONI3m7tU3Rc6ygqP9w8VXg8m
+1eXYm95S5thwGOVfX3XTb8HuJMmQGDB7Kc9ev+mrELIx/9ON3UIo1TrKxk39dxo=
+=S8M9
 -----END PGP SIGNATURE-----

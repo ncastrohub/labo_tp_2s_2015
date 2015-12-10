@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: CPI UNQ<unq.cpi.debian@gmail.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
-Homepage: <insert the upstream URL, if relevant>
+Homepage: http://www.gobstones.org/
 
 Package: gobstones
 Architecture: all

@@ -7,29 +7,29 @@ Binary: gobstones
 Architecture: all
 Version: 1.5.3-0ubuntu1
 Maintainer: CPI UNQ<unq.cpi.debian@gmail.com>
-Homepage: <insert the upstream URL, if relevant>
+Homepage: http://www.gobstones.org/
 Standards-Version: 3.9.5
 Build-Depends: debhelper (>= 9)
 Package-List:
  gobstones deb devel optional arch=all
 Checksums-Sha1:
- c87eec76a478353bfbf028d77f739d99e7ef1064 1616548 gobstones_1.5.3.orig.tar.xz
- afd370983a619bd9ea6037f8c8199f36eb981ddf 9224 gobstones_1.5.3-0ubuntu1.debian.tar.xz
+ c7ab57a4fdd6e83b6c097eb9932c012a3feb3352 1616760 gobstones_1.5.3.orig.tar.xz
+ 82a3343f524cfb14a60fd628cd4359a31d5290c4 9224 gobstones_1.5.3-0ubuntu1.debian.tar.xz
 Checksums-Sha256:
- 32dece1d47352a91417b8e19bfecf5d88f8ac35cf1c664b0d4567547cc15131c 1616548 gobstones_1.5.3.orig.tar.xz
- 80773cebcd2f0650deaf0b457b45a422b6f59d2fe45157c4258e2ed664624f6e 9224 gobstones_1.5.3-0ubuntu1.debian.tar.xz
+ 093a9decff8e860e7d65760941b40158a7349f2f3277f8dc5a67c4d671b9bd19 1616760 gobstones_1.5.3.orig.tar.xz
+ a2743f801a0796eb929a911da9a37a761097846fce3aa24339954325b398519f 9224 gobstones_1.5.3-0ubuntu1.debian.tar.xz
 Files:
- 60620be516195367ae47aa527574cd5c 1616548 gobstones_1.5.3.orig.tar.xz
- 8394bbc1f429b0c00f0e6e59963d2ebb 9224 gobstones_1.5.3-0ubuntu1.debian.tar.xz
+ c1f46c5e9a1818326caeae4a43380c76 1616760 gobstones_1.5.3.orig.tar.xz
+ 837e7f8ca31a084c7c3c210682ac11c9 9224 gobstones_1.5.3-0ubuntu1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQEcBAEBCAAGBQJWaN16AAoJEBs0LWKKT9ZYdJUH/1j6kPDWkLIJFkb6gPKtBBhc
-3TVT0F6qZX5rTmK0DXyppjHenjigeE3MIK3W4Mw/tWFRejfbjWpw4uz5xsFHAqzm
-a6CjOUmqIbe9JYRCeBy7dgukny6Rhv894/nyxLmnC/xuAa8puEwss2Au2dZxuxzO
-TslHbaoCAcUHCppa5giX0LsR7h64O7SCon7/3KVOaxUb9OoBU7RIIPiGKG6rcSoK
-WHPjuVP/OcjUq2Va7HxFw2Jaxux/BlNaoFJO15suHsaCrTUI6w3sHn27Tt9pu8hb
-zgCH2OMEF0xOVjmOCjeWxCJpkILJ3gSc7iUPVboTq0wlQBRDj2qwH1sx+rvsLFI=
-=AT9I
+iQEcBAEBCAAGBQJWaOIkAAoJEBs0LWKKT9ZYRKQH/1yx8yUjGY3d9RWEgfo9ROPa
+xOLcUheu/kHO+ze4NMpjA/Z35FyuYg0eAQ+T4DhLts4Mg+b/pY8E/Msyw0lH9S/j
+cFwNoJ8gtoHPMJC3GJirrx0ukTu5tM2XLOTpYoEcoe80MAi3gOY9T9OL0j0NxJgq
+uWhkzBbG7a9Ogs0n/mpEFbJc+djKRQ/6MPpm0hsH3hVq+f9L3r+lVs29yItlnXEw
+h+JsC+h55/fW5ez3hVe0CroBvynxSdXWBZgsFFnkuVFbFb2fj6PDzvEVqkX68znV
+Kd1mMAIpxexSb7a8/rcGHGZ1ftrBbn9OkGyeOhudEt4+Fr2+9iMsmlTZ0SRRArs=
+=/CWj
 -----END PGP SIGNATURE-----
