@@ -7,37 +7,37 @@ Source: gobstones
 Binary: gobstones
 Architecture: source
 Version: 1.5.3-0ubuntu1
-Distribution: wily
+Distribution: vivid
 Urgency: low
 Maintainer: CPI UNQ<unq.cpi.debian@gmail.com>
 Changed-By: CPI UNQ <unq.cpi.debian@gmail.com>
 Description:
  gobstones  - IDE para el lenguaje de programacion Gobstones
 Changes:
- gobstones (1.5.3-0ubuntu1) wily; urgency=low
+ gobstones (1.5.3-0ubuntu1) vivid; urgency=low
  .
    * Initial release of Gobstones in PPA respository
 Checksums-Sha1:
- 7e15fac581b97cc16b628a421b7ef4ff88866f77 1391 gobstones_1.5.3-0ubuntu1.dsc
- 196baebe51ef98764bf053c0f1590562d473c02e 1616368 gobstones_1.5.3.orig.tar.xz
- 5f5b2b8f428bee66658d20374fd20044ab0aaca2 9152 gobstones_1.5.3-0ubuntu1.debian.tar.xz
+ 7b52c5373ee30a2bdf7e3b62de96ee50b50f2577 1391 gobstones_1.5.3-0ubuntu1.dsc
+ c87eec76a478353bfbf028d77f739d99e7ef1064 1616548 gobstones_1.5.3.orig.tar.xz
+ afd370983a619bd9ea6037f8c8199f36eb981ddf 9224 gobstones_1.5.3-0ubuntu1.debian.tar.xz
 Checksums-Sha256:
- 93613be3b7aad771695da314d9e3c1e8c8d2c4b859492e028456df613ce29f31 1391 gobstones_1.5.3-0ubuntu1.dsc
- 57d0d81d52d548d27c675b5d4daa55e37f4f4d566e0845baff929597dd673427 1616368 gobstones_1.5.3.orig.tar.xz
- b9a1ea9e40685f2f666a257966e8ae78af03b6cf61f522753b994278dc8bf6c7 9152 gobstones_1.5.3-0ubuntu1.debian.tar.xz
+ e2b1c76bfab207df16747a1a774928d40ff28b27b05db02157727cbffad1f057 1391 gobstones_1.5.3-0ubuntu1.dsc
+ 32dece1d47352a91417b8e19bfecf5d88f8ac35cf1c664b0d4567547cc15131c 1616548 gobstones_1.5.3.orig.tar.xz
+ 80773cebcd2f0650deaf0b457b45a422b6f59d2fe45157c4258e2ed664624f6e 9224 gobstones_1.5.3-0ubuntu1.debian.tar.xz
 Files:
- 38ce9d19ea709b3acd8d75d3efde955d 1391 devel optional gobstones_1.5.3-0ubuntu1.dsc
- b027cbaa6300d89e7d8a81366b640290 1616368 devel optional gobstones_1.5.3.orig.tar.xz
- 14c1731937d4d965dd9980129521e645 9152 devel optional gobstones_1.5.3-0ubuntu1.debian.tar.xz
+ ade1bd892491e760869e3ff1e21fe736 1391 devel optional gobstones_1.5.3-0ubuntu1.dsc
+ 60620be516195367ae47aa527574cd5c 1616548 devel optional gobstones_1.5.3.orig.tar.xz
+ 8394bbc1f429b0c00f0e6e59963d2ebb 9224 devel optional gobstones_1.5.3-0ubuntu1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQEcBAEBCAAGBQJWZ6J8AAoJEBs0LWKKT9ZYq1sH/3GjpizQsqszXfQKC0PSASPW
-nS/dV2wemITO6ODrCB83djBdLi+nsXzhrFZe0STG5FRrICSSPnfkpt6AOSHY9NpR
-WfWH4lJqFCE3nkHtdZ6sIGM4/3e9i3XVAV+HPgCsR9RYlUKuFOYpgm2PN33deVWL
-fy8S925B2xXYUJruS8Eh0k6KC/4ptIDyGA9P2Ncz7NqAlrSc2M4pkt1XrBYlioJ3
-unNd8TdjGVpHq/HEHnDFpxCu2XAZhDNUkaexQ2OP44iO+5tKVEPrOHb74LYZa7if
-L3Q45LPsniLG3vlV8MVzUtOB1uLYHYy2KfKbb3R329kUQJtwc26XvoM3jIF6AYU=
-=SObI
+iQEcBAEBCAAGBQJWaN16AAoJEBs0LWKKT9ZYLgcH/1sGxeVqMutwdraEYuLgCnwR
+qht+sl9nMLEehAytEbq00gZ9KvF+sR8hJM/FiDxebTlm8Vr1QT5WOfBbDGkoEKKM
+D5tHZXUgE6oRmq6olJJ1jZdDPUB6GyARIGciONMd0qj1+1NCUFI6P6LKi+yLQ5ZD
+/Sh6kT3AmnGtSS50K79AXY/pjk+n4Zq00qfq1xVTz4X9zHBVK5w3hQnjuW6Z944w
+CUB/BFsUBJl3oIPuBoZPTy/8VGoyVo1VrFF3hBQs6wQqJQWYpeIQJhIl8ugbEUWs
+Cw1YayW4rly7c8e4Ezzq27VBUHm37eEQxtSPa5LB2IIVELi2nYYUYappeG2HQek=
+=BT9b
 -----END PGP SIGNATURE-----
